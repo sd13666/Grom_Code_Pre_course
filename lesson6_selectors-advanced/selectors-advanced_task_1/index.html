@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Operators in attribute selectors</title>
@@ -19,13 +19,13 @@
       [href^="broken"] {
         border: 2px solid red;
       }
-      [href$=".com"] {
+      a[href$=".com"] {
         margin-left: 50px;
       }
       [lang|="en"] {
         font-size: 10px;
       }
-      [href*="www"] {
+      a[href*="www"] {
         color: green;
       }
       a[title~="popular"] {
