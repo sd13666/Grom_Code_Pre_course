@@ -2,10 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Селектори атрибутів</title>
+  <title>Selectors Exercise</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
+    .super-important{
+      background-color: red;
+    }
 
+    .highlighted{
+      color: yellow;
+    }
+
+    .highlighted.super-important{
+      font-size: 30px;
+    }
+
+    span.user-data {
+      background-color: aqua;
+    }
+
+    li.user-data {
+      background-color:honeydew;
+    }
+
+    .company-data, li {
+      font-size: 8px;
+    }
   </style>
 </head>
 <body>
@@ -16,10 +38,17 @@
     <p class="highlighted">Less important text</p>
     <p>Really not so important paragraph</p>
     <div>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+      <span class="super-important user-data">First name</span>
+      <span class="user-data">Last name</span>
+      <span class="company-data">Last name</span>
+      <span class="user-data">Last name</span>
+    </div>
+    <div>
+      <p>User roles</p>
+      <ul>
+        <li class="user-data">Product development</li>
+        <li class="user-data">Mentoring</li>
+      </ul>
     </div>
   </div>
   
