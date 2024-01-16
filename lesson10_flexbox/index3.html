@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <style>
+      .header {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        background-color: yellow;
+      }
+      .footer {
+        display: flex;
+        height: 40px;
+        background-color: green;
+      }
+      .navigation {
+        margin: 0;
+        display: flex;
+        list-style-type: none;
+      }
+      .navigation__item {
+        margin-right: 10px;
+      }
+      .footer__text {
+        margin: auto;
+      }
+      .page {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      .content {
+        flex-grow: 1;
+        display: flex;
+      }
+      .dashboard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        background-color: pink;
+      }
+      .news {
+        width: 200px;
+        background-color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <ul class="navigation">
+          <li class="navigation__item">About</li>
+          <li class="navigation__item">Products</li>
+          <li class="navigation__item">Contacts</li>
+        </ul>
+      </header>
+      <main class="content">
+        <section class="dashboard">
+          <h2>I can use Flexbox!!!</h2>
+        </section>
+        <aside class="news">
+          <h2>News</h2>
+          <ul>
+            <li>News 1</li>
+            <li>News 2</li>
+            <li>News 3</li>
+          </ul>
+        </aside>
+      </main>
+      <footer class="footer"><span class="footer__text">Footer</span></footer>
+    </div>
+  </body>
+</html>
