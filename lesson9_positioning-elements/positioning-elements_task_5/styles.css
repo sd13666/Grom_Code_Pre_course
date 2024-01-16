@@ -15,7 +15,6 @@
   align-items: center;
   justify-content: left;
   height: 40px;
-  margin-left: 16px;
 }
 
 .nav-list {
@@ -23,8 +22,9 @@
   display: flex;
 }
 .nav-item {
-  margin: 0 10px;
+  /* margin: 0 10px; */
   color: white;
+  margin-left: 16px;
 }
 .content {
   background-color: beige;
