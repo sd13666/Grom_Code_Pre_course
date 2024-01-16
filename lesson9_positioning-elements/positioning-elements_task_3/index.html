@@ -2,22 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Float</title>
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .header {
+        background-color: yellow;
+        height: 50px;
+      }
+      .content {
+        background-color: pink;
+        height: 500px;
+        float: left;
+        width: 80%;
+      }
+      .news {
+        background-color: grey;
+        height: 500px;
+        float: left;
+        width: 20%;
+      }
+      .footer {
+        background-color: green;
+        height: 50px;
+        clear: both;
+      }
+    </style>
   </head>
 
   <body>
-    <div class="block_red"></div>
-    <div class="block_green"></div>
-    <div class="block_blue"></div>
-    <div class="block_yellow"></div>
-    <div class="block_black"></div>
+    <header class="header">Header</header>
+    <main class="content">Main</main>
+    <aside class="sidebar">Sidebar</aside>
+    <footer class="footer">Footer</footer>
   </body>
 </html>
-
