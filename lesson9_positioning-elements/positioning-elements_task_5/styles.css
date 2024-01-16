@@ -10,21 +10,16 @@
   width: 100%;
 }
 
-.navigation {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  height: 40px;
-}
-
 .nav-list {
   list-style-type: none;
-  display: flex;
+  margin: 0;
+  height: 40px;
 }
 .nav-item {
-  /* margin: 0 10px; */
-  color: white;
+  display: inline-block;
   margin-left: 16px;
+  color: white;
+  line-height: 40px;
 }
 .content {
   background-color: beige;
