@@ -2,7 +2,10 @@
 * {
   box-sizing: border-box;
 }
-h1 {
+body {
+  margin: 0;
+}
+header {
   text-align: center;
 }
 .articles-list {
@@ -13,7 +16,8 @@ h1 {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  min-width: 300px;
+  /* min-width: 300px;
   flex-basis: 300px;
-  flex-grow: 1;
+  flex-grow: 1; */
+  flex: 1 0 300px;
 }
