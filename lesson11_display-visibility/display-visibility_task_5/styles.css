@@ -1,0 +1,19 @@
+/* put your code here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: flex;
+  cursor: all-scroll;  
+  overflow: auto;
+}
+
+.thumb {
+  margin: 8px;
+}
