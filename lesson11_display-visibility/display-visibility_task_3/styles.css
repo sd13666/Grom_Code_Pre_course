@@ -1,0 +1,47 @@
+/* put your code here */
+* {
+  box-sizing: border-box;
+}
+.dropdown {
+  margin: 16px;
+}
+
+.dropdown:hover .menu-list {
+  display: block;
+}
+
+.menu-button {
+  display: inline-block;
+  padding: 16px;
+  background-color: darkgreen;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  opacity: 1;
+}
+
+.menu-list {
+  display: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightcyan;
+  color: black;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  min-width: 120px;
+  z-index: 1;
+  position: absolute;
+}
+
+.menu-list .menu-item {
+  padding: 16px;
+  list-style: none;
+}
+
+.menu-list .menu-item:hover {
+  background-color: ghostwhite;
+}
