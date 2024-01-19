@@ -10,10 +10,9 @@ body {
   display: inline-block;
   margin: 16px;
   text-decoration: underline dotted black;
-  text-underline-offset: 5px;
+  text-underline-offset: 4px;
   font-size: 18px;
   position: relative;
-  line-height: 1;
 }
 
 .tooltip {
@@ -24,5 +23,4 @@ body {
   position: absolute;
   bottom: -40px;
   left: 0px;
-  line-height: 1;
 }
