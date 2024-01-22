@@ -1,12 +1,16 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 .image-container {
   position: relative;
 }
 .image {
   display: block;
-  margin: 20px auto 0;
+  margin: 0 auto;
   max-width: 100%;
 }
 .image-button {
