@@ -36,7 +36,7 @@ body {
   padding: 4px;
   outline: none;
 }
-.form-input:valid {
+.form-input:invalid {
   border: 3px solid #ff0000;
 }
 .submit-button {
