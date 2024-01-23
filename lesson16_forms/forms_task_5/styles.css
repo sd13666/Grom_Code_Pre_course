@@ -7,9 +7,3 @@ form {
 div {
   margin: 8px;
 }
-input, select, textarea, button {
-  display: block;
-}
-input[type="radio"] {
-  display: inline;
-}
