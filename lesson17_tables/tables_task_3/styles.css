@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
 table {
   margin: 16px;
   border-collapse: collapse;
   border: 1px solid black;
+
 }
 
 td {
@@ -13,17 +15,22 @@ td {
   text-align: center;
 }
 
-td:nth-child(odd) {
-  background-color: black;
+tr:nth-child(2n+2) td:nth-child(2n+2),
+tr:nth-child(2n+3) td:nth-child(2n+3) {
+  background-color: white;
+  border: 1px solid black;
 }
 
-td:nth-child(even) {
-  background-color: white;  
+tr:nth-child(2n+3) td:nth-child(2n+2),
+tr:nth-child(2n+2) td:nth-child(2n+3) {
+  background-color: black;
+  border: 1px solid black;
 }
 
 td:first-child,
 td:last-child,
 tr:first-child td,
 tr:last-child td {
-  background-color: white;
-}
+  background-color: white !important;
+  border: none !important;
+} 
