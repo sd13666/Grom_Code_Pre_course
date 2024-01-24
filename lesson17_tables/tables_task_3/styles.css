@@ -13,16 +13,13 @@ td {
   text-align: center;
 }
 
-tr:nth-child(odd) td:nth-child(even),
-tr:nth-child(even) td:nth-child(odd) {
+td:nth-child(odd) {
   background-color: black;
-  color: white;
 }
 
-/* tr:nth-child(odd) td:nth-child(odd),
-tr:nth-child(even) td:nth-child(even) {
-  background-color: white;
-} */
+td:nth-child(even) {
+  background-color: white;  
+}
 
 td:first-child,
 td:last-child,
@@ -30,11 +27,3 @@ tr:first-child td,
 tr:last-child td {
   background-color: white;
 }
-
-/* td:first-child::before {
-  content: attr(data-label);
-} */
-
-/* tr:nth-child(n+2) td:first-child::before {
-  content: attr(data-label);
-} */
