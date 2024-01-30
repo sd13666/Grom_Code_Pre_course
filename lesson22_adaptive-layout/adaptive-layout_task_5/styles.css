@@ -25,7 +25,10 @@ img {
 .section,
 .news {
   padding: 0.5em;
-  height: 100%;
+  height: 100%;  
+}
+.section {
+  font-size: 1.25em;
 }
 .section__header {
   font-size: 5vw;
@@ -109,7 +112,6 @@ img {
     width: 20%;
   }
   .section {
-    font-size: 1.25em;
     width: 60%;
   }
 }
