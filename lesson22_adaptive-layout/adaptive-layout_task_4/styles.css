@@ -28,6 +28,9 @@ html {
   padding: 0.5em;
   list-style: none;
 }
+.nav-list {
+  padding: 0;
+}
 .nav-list-item {
   background-color: #808080;
   color: #fff;
