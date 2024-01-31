@@ -9,13 +9,19 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+
+  @media screen and (orientation: portrait) {
+    .container {
+      flex-direction: column;
+    }
+  }
 }
 
 .square {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin: 16px;
+  margin: 8px;
 
   @include for-small {
     background-color: #8a2be2;
@@ -29,9 +35,4 @@
     background-color: #c47;
   }
 
-  @media screen and (orientation: portrait) {
-    .container {
-      flex-direction: column;
-    }
-  }
 }
