@@ -10,10 +10,8 @@
   justify-content: center;
   height: 100vh;
 
-  @media screen and (orientation: portrait) {
-    .container {
-      flex-direction: column;
-    }
+  @include for-orientation {
+    flex-direction: column;
   }
 }
 

@@ -9,7 +9,7 @@
   height: 100vh;
 }
 @media screen and (orientation: portrait) {
-  .container .container {
+  .container {
     flex-direction: column;
   }
 }
