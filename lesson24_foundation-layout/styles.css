@@ -9,7 +9,11 @@ html {
 .page {
   width: 1400px;
   margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+/* Header */
 .top-section {
   background-color: #F3C6BD;
   padding-top: 39px;
@@ -72,4 +76,33 @@ html {
   color: #fff;
   font-weight: 700;
   border-radius: 2px;
+}
+
+/* Footer */
+
+.footer {
+  font-size: 18px;
+  height: 50px;
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+.useful-links {
+}
+.footer__line {
+  border: 1px solid #2B292D;
+  width: 100%;
+  opacity: .1;
+  margin: 0;
+}
+.footer-links {
+  height: 50px;
+}
+.footer-navigation {
+}
+.footer-navigation__items {
+}
+.social-links {
 }
