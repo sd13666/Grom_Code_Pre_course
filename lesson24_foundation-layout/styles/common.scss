@@ -1,22 +1,21 @@
 .action-button {
   width: 160px;
   height: 48px;
-  background-color: #3040C4;
+  background-color: #3040c4;
   color: #fff;
   font-weight: 700;
   border-radius: 2px;
   border: none;
 }
 
-
-
-@media screen and (min-width: 400px) {
-  .hide_desktop {
+.hide_desktop {
+  @include for-large-up {
     display: none;
   }
 }
-@media screen and (max-width: 399px) {
-  .hide_mobile {
+
+.hide_mobile {
+  @include for-large-down {
     display: none;
   }
 }
